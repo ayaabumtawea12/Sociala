@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sociala</title>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+    <!--fontawsome-->
+    <link rel="stylesheet" href="vendor/css/all.min.css">
+    <!--carousel-->
+    <link rel="stylesheet" href="vendor/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/css/owl.theme.default.min.css">
+    <!--lightbox cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <!--css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--nav-->
+    <link rel="stylesheet" href="assets/css/nav.css">
+</head>
+<body>
+<!--start nav-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-light fixed-top">
+        <div class="container-fluid justify-content-start">
+          <a class="navbar-brand" href="#"><i class="fa-solid fa-bolt text-success"></i> <span class="text-primary">Sociala.</span></a>
+          <div class="search d-none d-lg-block d-flex align-items-center bg-gray p-2 rounded-pill ms-4 me-4">
+            <i class="fa-solid fa-magnifying-glass ms-2"></i>
+            <input type="search" class="bg-transparent border-0 mx-sm-2" placeholder="search here">
+          </div>
+
+          <div class="first-list d-none d-xl-block" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-bolt"></i></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link disabled"><i class="fa-solid fa-video"></i></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link disabled"><i class="fa-solid fa-user"></i></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link disabled"><i class="fa-solid fa-bag-shopping"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="second-list d-none d-lg-block  ms-auto" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item ">
+                <a class="nav-link active  position-relative" aria-current="page" href="#">
+                    <i class="fa-solid fa-bell"></i>
+                    <span class="p-1 position-absolute rounded-circle bg-warning "></span>
+                </a>
+                
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-regular fa-message chat-btn"></i></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link disabled"><i class="fa-solid fa-gear"></i></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link disabled"><i class="fa-solid fa-user"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="third-list d-block d-lg-none  ms-auto" id="navbarSupportedContent">
+            <ul class="list-unstyled me-auto mb-2 mb-lg-0 align-items-center d-flex">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                <i class="fa-regular fa-comment"></i>
+                </a>
+              </li>
+
+               <li class="nav-item">
+                <a class="nav-link disabled"><i class="fa-solid fa-video"></i></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link disabled"><i class="fa-solid fa-search"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">
+                <button class="canva-btn   border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                 </button> 
+                </a>
+              </li>
+            </ul>
+        </div>
+ 
+        </div>
+      </nav>
+      <div class="offcanvas offcanvas-start d-block d-lg-none" data-bs-scroll="true" data-bs-backdrop="false"  tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-body">
+        <div class="content-cannva mb-3 p-2 shadow-xss rounded">
+        <p class="text-capitalize text-gray">new feeds</p>
+        <ul class="list-unstyled">
+            <li  class="mb-3">
+                <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                    <i class="fa-solid fa-tv bg-blue-gradient"></i>
+                    <h3 class="ms-3">Newsfeed</h3>
+                </a>
+            </li>
+
+            <li class="mb-3">
+                <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                    <i class="fa-solid fa-award bg-red-gradient"></i>
+                    <h3 class="ms-3">Bades</h3>
+                </a>
+            </li>
+
+            <li class="mb-3">
+                <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                    <i class="fa-solid fa-globe bg-gold-gradient"></i>
+                    <h3 class="ms-3">Explore Stories</h3>
+                </a>
+            </li>
+
+            <li class="mb-3">
+                <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                    <i class="fa-solid fa-bolt bg-mini-gradient"></i>
+                    <h3 class="ms-3">Popular Groups</h3>
+                </a>
+            </li>
+
+            <li class="mb-3">
+                <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                    <i class="fa-solid fa-user bg-mini-gradient"></i>
+                    <h3 class="ms-3">Author Profile</h3>
+                </a>
+            </li>
+
+
+
+        </ul>
+        </div>
+
+        <div class="content-cannva mb-3 p-2 shadow-xss rounded">
+            <p class="text-capitalize text-gray">More paged</p>
+            <ul class="list-unstyled">
+                <li  class="mb-3">
+                    <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                        <i class="fa-solid fa-inbox"></i>
+                        <h3 class="ms-3">Email Box</h3>
+                        <span class="text-white bg-warningg ms-auto px-2 py-1">552</span>
+                    </a>
+                </li>
+
+                <li  class="mb-3">
+                    <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                        <i class="fa-solid fa-home"></i>
+                        <h3 class="ms-3">Near Hotel</h3>
+                    </a>
+                </li>
+
+
+                <li  class="mb-3">
+                    <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h3 class="ms-3">Latest Event</h3>
+                    </a>
+                </li>
+
+
+
+                <li  class="mb-3">
+                    <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                        <h3 class="ms-3">Live Stream</h3>
+                    </a>
+                </li>
+    
+            </ul>
+            </div>
+
+
+
+            <div class="content-cannva mb-3 p-2 shadow-xss rounded">
+                <p class="text-capitalize text-gray">Account</p>
+                <ul class="list-unstyled">
+                    <li  class="mb-3">
+                        <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                            <i class="fa-solid fa-gear"></i>
+                            <h3 class="ms-3">Settings</h3>
+                        </a>
+                    </li>
+    
+                    <li  class="mb-3">
+                        <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                            <i class="fa-solid fa-chart-pie"></i>
+                            <h3 class="ms-3">Analytics</h3>
+                        </a>
+                    </li>
+    
+    
+                    <li  class="mb-3">
+                        <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                            <i class="fa-regular fa-message"></i>
+                            <h3 class="ms-3">Chat</h3>
+                            <span class="text-white bg-warningg ms-auto px-2 py-1">23</span>
+                        </a>
+                    </li>
+    
+    
+    
+                  
+        
+                </ul>
+                </div>
+
+        </div>
+      </div>
+
+<!--end nav-->
+
+<!--content-->
+
+<aside class="sidebar  d-none d-lg-block position-fixed bg-white">
+<div class="p-3">
+  <div class="content-cannva mb-3 p-2 shadow-xss rounded">
+    <p class="text-capitalize text-gray">new feeds</p>
+    <ul class="list-unstyled">
+        <li  class="mb-3">
+            <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                <i class="fa-solid fa-tv bg-blue-gradient"></i>
+                <h3 class="ms-3">Newsfeed</h3>
+            </a>
+        </li>
+
+        <li class="mb-3">
+            <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                <i class="fa-solid fa-award bg-red-gradient"></i>
+                <h3 class="ms-3">Bades</h3>
+            </a>
+        </li>
+
+        <li class="mb-3">
+            <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                <i class="fa-solid fa-globe bg-gold-gradient"></i>
+                <h3 class="ms-3">Explore Stories</h3>
+            </a>
+        </li>
+
+        <li class="mb-3">
+            <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                <i class="fa-solid fa-bolt bg-mini-gradient"></i>
+                <h3 class="ms-3">Popular Groups</h3>
+            </a>
+        </li>
+
+        <li class="mb-3">
+            <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                <i class="fa-solid fa-user bg-mini-gradient"></i>
+                <h3 class="ms-3">Author Profile</h3>
+            </a>
+        </li>
+
+
+
+    </ul>
+    </div>
+
+    <div class="content-cannva mb-3 p-2 shadow-xss rounded">
+        <p class="text-capitalize text-gray">More paged</p>
+        <ul class="list-unstyled">
+            <li  class="mb-3">
+                <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                    <i class="fa-solid fa-inbox"></i>
+                    <h3 class="ms-3">Email Box</h3>
+                    <span class="text-white bg-warningg ms-auto px-2 py-1">552</span>
+                </a>
+            </li>
+
+            <li  class="mb-3">
+                <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                    <i class="fa-solid fa-home"></i>
+                    <h3 class="ms-3">Near Hotel</h3>
+                </a>
+            </li>
+
+
+            <li  class="mb-3">
+                <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3 class="ms-3">Latest Event</h3>
+                </a>
+            </li>
+
+
+
+            <li  class="mb-3">
+                <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                    <h3 class="ms-3">Live Stream</h3>
+                </a>
+            </li>
+
+        </ul>
+        </div>
+
+
+
+        <div class="content-cannva mb-3 p-2 shadow-xss rounded">
+            <p class="text-capitalize text-gray">Account</p>
+            <ul class="list-unstyled">
+                <li  class="mb-3">
+                    <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                        <i class="fa-solid fa-gear"></i>
+                        <h3 class="ms-3">Settings</h3>
+                    </a>
+                </li>
+
+                <li  class="mb-3">
+                    <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                        <i class="fa-solid fa-chart-pie"></i>
+                        <h3 class="ms-3">Analytics</h3>
+                    </a>
+                </li>
+
+
+                <li  class="mb-3">
+                    <a class="d-flex align-items-center text-decoration-none text-dark" href="#">
+                        <i class="fa-regular fa-message"></i>
+                        <h3 class="ms-3">Chat</h3>
+                        <span class="text-white bg-warningg ms-auto px-2 py-1">23</span>
+                    </a>
+                </li>
+
+
+
+              
+    
+            </ul>
+            </div>
+
+
+</div>
+</aside>
+
+<section class="main-content">
+<div class="container-fluid container-lg">
+
+<div class="row mt-4"> 
+<div class="left col-lg-8 col-xl-8 pb-4">
+<!--stories carousel-->
+<div class="p-3">
+<div class="owl-carousel stories">
+  <!--story1-->
+    <div> 
+      <div class="content-st position-absolute bottom-0">
+        <i class="fa-solid fa-plus m-auto mb-1  story bg-white text-primary d-flex align-items-center justify-content-center"></i>
+        <p class="text-white text-capitalize p-st">add story</p>
+      </div>
+    </div>
+     <!--story2--> 
+    <div> 
+      <img src="assets/image/story (1).jpg" class="">
+      <div class="content-st position-absolute bottom-0 mt-2">
+        <img src="assets/image/ghadeer-img.jpg" class="m-auto mb-1 story">
+        <p class="text-white text-capitalize p-st">Aya Abu Mtawea</p>
+      </div>
+    </div>
+
+      <!--story3-->
+      <div> 
+        <img src="assets/image/stor3.jpg" class="">
+        <div class="content-st position-absolute bottom-0 mt-2">
+          <img src="assets/image/lana-img.jpg" class="m-auto mb-1 story">
+          <p class="text-white text-capitalize p-st">haya Mtawea</p>
+        </div>
+      </div>
+
+      <!--story4-->
+      <div> 
+        <img src="assets/image/story2.jpg" class="">
+        <div class="content-st position-absolute bottom-0 mt-2">
+          <img src="assets/image/zain-img.jpg" class="m-auto mb-1 story">
+          <p class="text-white text-capitalize p-st">zain Abu Mtawea</p>
+        </div>
+      </div>
+   <!--story5-->
+   <div> 
+    <img src="assets/image/stor3.jpg" class="">
+    <div class="content-st position-absolute bottom-0 mt-2">
+      <img src="assets/image/haya-img.jpg" class="m-auto mb-1 story">
+      <p class="text-white text-capitalize p-st">sama mohhamad</p>
+    </div>
+  </div>
+
+
+    <!--story6-->
+    <div> 
+      <img src="assets/image/story2.jpg" class="">
+      <div class="content-st position-absolute bottom-0 mt-2">
+        <img src="assets/image/heba-img.jpg" class="m-auto mb-1 story">
+        <p class="text-white text-capitalize p-st">sara morad</p>
+      </div>
+    </div> 
+
+</div>
+</div>
+<!--stories carousal-->
+<!--secton2 in main content-->
+<div class="roundedA shadow-xss p-4 ">
+<!--1-->
+<div class="d-flex align-items-center">
+  <i class="fa-solid fa-pen d-flex align-items-center justify-content-center text-primary Pimg center-item"></i>
+  <span class="text-gray text-capitalize ms-1 link">create post</span>
+</div>
+
+<!--2-->
+<div class="content-post mt-3 position-relative">
+    <textarea  rows="5" class="w-100 rounded-3 ps-5 pt-2 border-bottom border-top shadow-sm border-0" placeholder="what is in your mind?"></textarea>
+    <img src="assets/image/heba-img.jpg" class="position-absolute img-post">
+</div>
+
+<!--3-->
+<div  class="d-flex mt-3">
+   <a  href="#" class="text-decoration-none me-3 link">
+    <i class="fa-solid fa-video text-danger"></i>
+    <span class="text-capitalizec ms-2 text-dark d-none d-md-inline">live video</span>
+  </a>
+
+  <a href="#" class="link text-decoration-none me-3 link">
+    <i class="fa-solid fa-image text-success"></i>
+    <span class="text-capitalize ms-2 text-dark d-none d-md-inline">photo/video</span>
+  </a>
+
+  <a  href="#" class="text-decoration-none me-3 link">
+    <i class="fa-solid fa-camera text-warning"></i>
+    <span class="text-capitalize ms-2 text-dark d-none d-md-inline">felling/activity</span>
+  </a>
+
+  <a  href="#" class="Pimg bg-gray text-decoration-none me-3 d-flex align-items-center justify-content-center ms-auto text-dark">
+    <i class="fa-solid fa-ellipsis"></i>
+  </a>
+
+
+</div>
+
+</div>
+
+<!--first post-->
+<div class="postOne mt-4 roundedA shadow-xss p-4">
+<div class="d-flex align-items-center">
+  <img src="assets/image/lana-img.jpg" class="Pimg">
+<div class="ms-2">
+  <span class="text-capitalize m-0 link">sara daraghmeh</span>
+  <p class="text-gray link fw-bold m-0 mt- ">3 hour ago</p>
+</div>
+<a  href="#" class="Pimg bg-gray text-decoration-none me-3 d-flex align-items-center justify-content-center ms-auto text-dark">
+  <i class="fa-solid fa-ellipsis"></i>
+</a>
+</div>
+
+<div class="link mt-3 text-gray">  
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, asperiores? Lorem ipsum dolor sit amet consectetur <a href="#" class="text-decoration-none text-primary link ms-2">See more</a></p>
+</div>
+
+ <!--images-->
+<div class="row">
+  
+<div class="col-4">  
+  <a href="assets/image/t4.jpg" data-lightbox="roadtrip">
+    <img src="assets/image/t4.jpg" class="img-fluid rounded-2">
+  </a>
+</div>
+
+<div class="col-4">  
+  <a href="assets/image/t2.jpg" data-lightbox="roadtrip">
+    <img src="assets/image/t2.jpg" class="img-fluid rounded-2">
+  </a>
+</div>
+
+<div class="col-4">  
+<a href="assets/image/t3.jpg" data-lightbox="roadtrip" class="position-relative d-block">
+  <img src="assets/image/t3.jpg" class="img-fluid rounded-2">
+
+  <div class="overlay text-decoration-none position-absolute text-white fw-bold rounded-2">
+   +2
+  </div>
+</a>
+</div>
+
+</div>
+
+ 
+<!--last part in first post-->
+<div class="d-flex align-items-center mt-3">
+  <i class="fa-solid fa-thumbs-up text-white bg-blue-gradient link w20 d-flex justify-content-center align-items-center "></i>
+  <i class="fa-regular fa-heart text-white bg-warningg link w20 ms-1 d-flex justify-content-center align-items-center"></i>
+  <span class="link ms-1 d-none d-md-inline-block">2.8k Like</span>
+  <i class="fa-regular fa-comment ms-3"></i>
+  <span class="link ms-1 d-none d-md-inline-block">22 comment</span>
+
+  <i class="fa-solid fa-share-nodes ms-auto"></i>
+  <span class="fs ms-1 d-none d-md-inline-block">share</span>
+</div>
+
+
+
+</div>
+<!--end first post-->
+
+
+
+<!--second post-->
+<div class="postOne mt-4 roundedA shadow-xss p-4">
+  <div class="d-flex align-items-center">
+    <img src="assets/image/ghadeer-img.jpg" class="Pimg">
+  <div class="ms-2">
+    <span class="text-capitalize m-0 link">ghadeer daraghmeh</span>
+    <p class="text-gray link   m-0  ">2 hour ago</p>
+  </div>
+  <a  href="#" class="Pimg bg-gray text-decoration-none me-3 d-flex align-items-center justify-content-center ms-auto text-dark">
+    <i class="fa-solid fa-ellipsis"></i>
+  </a>
+  </div>
+  
+  <div class="link mt-3 text-gray">  
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, asperiores? Lorem ipsum dolor sit amet consectetur <a href="#" class="text-decoration-none text-primary link ms-2">See more</a></p>
+  </div>
+   
+  <!--last part in second post-->
+  <div class="d-flex align-items-center mt-3">
+    <i class="fa-solid fa-thumbs-up text-white bg-blue-gradient link w20 d-flex justify-content-center align-items-center "></i>
+    <i class="fa-regular fa-heart text-white bg-warningg link w20 ms-1 d-flex justify-content-center align-items-center"></i>
+    <span class="link ms-1 d-none d-md-inline-block">2k Like</span>
+    <i class="fa-regular fa-comment ms-3"></i>
+    <span class="link ms-1 d-none d-md-inline-block">19 comment</span>
+  
+    <i class="fa-solid fa-share-nodes ms-auto"></i>
+    <span class="fs ms-1 d-none d-md-inline-block">share</span>
+  </div>
+
+  </div>
+<!--end second post-->
+
+
+
+<!--start live story-->
+<div class="p-4">  
+<div class="owl-carousel lives-stories ">
+  <!--story1-->
+  <div class="h-100"> 
+    <div class="toparea">
+      <img src="assets/image/story (1).jpg">
+    </div>
+      
+<div class="bottomarea position-relative text-center">
+  <div class="w50 bg-white p-1 position-absolute b-img">
+    <img src="assets/image/zain-img.jpg" class="img-fluid Pimg">
+  </div>
+<div class="pt-4">  
+<h3 class="fs fw-600">Aya Abu Mtawea</h3>
+<span class="link text-gray d-block mb-2">aya@gmail.com</span>
+<a href="#" class="btn bg-danger text-white rounded mt-1 py-1 px-2">Live</a> 
+</div>
+</div>
+
+</div>
+
+
+<!--storyLive2-->
+<div class="h-100"> 
+  <div class="toparea">
+    <img src="assets/image/t2.jpg">
+  </div>
+    
+<div class="bottomarea position-relative text-center">
+<div class="w50 bg-white p-1 position-absolute b-img">
+  <img src="assets/image/ghadeer-img.jpg" class="img-fluid Pimg">
+</div>
+<div class="pt-4">  
+<h3 class="fs fw-600">Ghadeer Mtawea</h3>
+<span class="link text-gray d-block mb-2">ghadeer@gmail.com</span>
+<a href="#" class="btn bg-danger text-white rounded mt-1 py-1 px-2">Live</a> 
+</div>
+</div>
+</div>
+
+<!--storyLive3-->
+<div class="h-100"> 
+  <div class="toparea">
+    <img src="assets/image/remove-bg.webp">
+  </div>
+    
+<div class="bottomarea position-relative text-center">
+<div class="w50 bg-white p-1 position-absolute b-img">
+  <img src="assets/image/heba-img.jpg" class="img-fluid Pimg">
+</div>
+<div class="pt-4">  
+<h3 class="fs fw-600">Heba Daraghmeh</h3>
+<span class="link text-gray d-block mb-2">heba@gmail.com</span>
+<a href="#" class="btn bg-danger text-white rounded mt-1 py-1 px-2">Live</a> 
+</div>
+</div>
+</div>
+
+
+
+<!--storyLive4-->
+<div class="h-100"> 
+  <div class="toparea">
+    <img src="assets/image/story2.jpg">
+  </div>
+    
+<div class="bottomarea position-relative text-center">
+<div class="w50 bg-white p-1 position-absolute b-img">
+  <img src="assets/image/haya-img.jpg" class="img-fluid Pimg">
+</div>
+<div class="pt-4">  
+<h3 class="fs fw-600">Haya Daraghmeh</h3>
+<span class="link text-gray d-block mb-2">haya@gmail.com</span>
+<a href="#" class="btn bg-danger text-white rounded mt-1 py-1 px-2">Live</a> 
+</div>
+</div>
+</div>
+
+
+
+
+<!--storyLive5-->
+<div class="h-100"> 
+  <div class="toparea">
+    <img src="assets/image/stor3.jpg">
+  </div>
+    
+<div class="bottomarea position-relative text-center">
+<div class="w50 bg-white p-1 position-absolute b-img">
+  <img src="assets/image/lana-img.jpg" class="img-fluid Pimg">
+</div>
+<div class="pt-4">  
+<h3 class="fs fw-600">Lana Mtawea</h3>
+<span class="link text-gray d-block mb-2">lana@gmail.com</span>
+<a href="#" class="btn bg-danger text-white rounded mt-1 py-1 px-2">Live</a> 
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+</div>
+<!--end live story-->
+
+
+<!--video-->
+<div class="postOne mt-4 roundedA shadow-xss p-4">
+  <div class="d-flex align-items-center">
+    <img src="assets/image/ghadeer-img.jpg" class="Pimg">
+  <div class="ms-2">
+    <span class="text-capitalize m-0 link">ghadeer daraghmeh</span>
+    <p class="text-gray link   m-0  ">2 hour ago</p>
+  </div>
+  <a  href="#" class="Pimg bg-gray text-decoration-none me-3 d-flex align-items-center justify-content-center ms-auto text-dark">
+    <i class="fa-solid fa-ellipsis"></i>
+  </a>
+  </div>
+
+<video src="assets/image/video.jpg" width="100%" controls  class="mt-3"></video>
+  
+  <div class="link mt-3 text-gray">  
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, asperiores? Lorem ipsum dolor sit amet consectetur <a href="#" class="text-decoration-none text-primary link ms-2">See more</a></p>
+  </div>
+   
+  <!--last part in second post-->
+  <div class="d-flex align-items-center mt-3">
+    <i class="fa-solid fa-thumbs-up text-white bg-blue-gradient link w20 d-flex justify-content-center align-items-center "></i>
+    <i class="fa-regular fa-heart text-white bg-warningg link w20 ms-1 d-flex justify-content-center align-items-center"></i>
+    <span class="link ms-1 d-none d-md-inline-block">2k Like</span>
+    <i class="fa-regular fa-comment ms-3"></i>
+    <span class="link ms-1 d-none d-md-inline-block">19 comment</span>
+  
+    <i class="fa-solid fa-share-nodes ms-auto"></i>
+    <span class="fs ms-1 d-none d-md-inline-block">share</span>
+  </div>
+
+</div>
+<!--end video-->
+
+
+
+<!--post images-->
+<div class="postOne mt-4 roundedA shadow-xss p-4">
+  <div class="d-flex align-items-center">
+    <img src="assets/image/haya-img.jpg" class="Pimg">
+  <div class="ms-2">
+    <span class="text-capitalize m-0 link">haya daraghmeh</span>
+    <p class="text-gray link   m-0  ">9 hour ago</p>
+  </div>
+  <a  href="#" class="Pimg bg-gray text-decoration-none me-3 d-flex align-items-center justify-content-center ms-auto text-dark">
+    <i class="fa-solid fa-ellipsis"></i>
+  </a>
+  </div>
+
+<div class="row mt-2">
+<div class="col-6">
+<img src="assets/image/img3.jpg" class="w-100 rounded">  
+</div>
+
+<div class="col-6">
+<img src="assets/image/img2.jpg" class="w-100 rounded">  
+</div>
+
+<div class="col-4 mt-2">
+  <img src="assets/image/img4.jfif" class="w-100 rounded">  
+</div>
+
+<div class="col-4 mt-2">
+    <img src="assets/image/img4.jfif" class="w-100 rounded">  
+</div>
+
+<div class="col-4 mt-2   img6">
+  <div class="position-relative">  
+    <img src="assets/image/img4.jfif" class="w-100 rounded"> 
+    <span class="position-absolute imgpost text-gray fw-bolder overlayt rounded">+2</span> 
+  </div>
+ </div>
+
+
+
+
+</div> 
+
+
+
+
+  <div class="link mt-3 text-gray">  
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, asperiores? Lorem ipsum dolor sit amet consectetur <a href="#" class="text-decoration-none text-primary link ms-2">See more</a></p>
+  </div>
+   
+  <!--last part in second post-->
+  <div class="d-flex align-items-center mt-3">
+    <i class="fa-solid fa-thumbs-up text-white bg-blue-gradient link w20 d-flex justify-content-center align-items-center "></i>
+    <i class="fa-regular fa-heart text-white bg-warningg link w20 ms-1 d-flex justify-content-center align-items-center"></i>
+    <span class="link ms-1 d-none d-md-inline-block">20k Like</span>
+    <i class="fa-regular fa-comment ms-3"></i>
+    <span class="link ms-1 d-none d-md-inline-block">100 comment</span>
+  
+    <i class="fa-solid fa-share-nodes ms-auto"></i>
+    <span class="fs ms-1 d-none d-md-inline-block">share</span>
+  </div>
+
+</div>
+<!--end post images-->
+
+
+<!--follow-->
+<div class="p-4">  
+<div class="owl-carousel  follows">
+  <!--follow1-->
+  <div class="text-center py-2">
+    <img src="assets/image/haya-img.jpg" class="story m-auto mt-2" alt="">
+    <h3 class="fs fw-600 text-capitalize mt-2">Haya Daraghma</h3>
+    <p class="text-gray link">haya@gmail.com</p>
+    <a href="#" class="text-uppercase bg-success link text-white fw-600 px-3 py-2 rounded-pill">follow</a>
+  </div>
+  <!--follow2-->
+  <div class="text-center py-2">
+    <img src="assets/image/mayar_img.jpg" class="story m-auto mt-2" alt="">
+    <h3 class="fs fw-600 text-capitalize mt-2">mayar daraghma</h3>
+    <p class="text-gray link">mayar@gmail.com</p>
+    <a href="#" class="text-uppercase bg-success link text-white fw-600 px-3 py-2 rounded-pill">follow</a>
+  </div>
+
+<!--follow3-->
+<div class="text-center py-2">
+  <img src="assets/image/zain-img.jpg" class="story m-auto mt-2" alt="">
+  <h3 class="fs fw-600 text-capitalize mt-2">zain daraghma</h3>
+  <p class="text-gray link">zain@gmail.com</p>
+  <a href="#" class="text-uppercase bg-success link text-white fw-600 px-3 py-2 rounded-pill">follow</a>
+</div>
+
+<!--follow4-->
+<div class="text-center py-2">
+  <img src="assets/image/masa.jpg" class="story m-auto mt-2" alt="">
+  <h3 class="fs fw-600 text-capitalize mt-2">heba Daraghma</h3>
+  <p class="text-gray link">heba@gmail.com</p>
+  <a href="#" class="text-uppercase bg-success link text-white fw-600 px-3 py-2 rounded-pill">follow</a>
+</div>
+
+<!--follow5-->
+<div class="text-center py-2">
+  <img src="assets/image/remove-bg.webp" class="story m-auto mt-2" alt="">
+  <h3 class="fs fw-600 text-capitalize mt-2">masa morad</h3>
+  <p class="text-gray link">masa@gmail.com</p>
+  <a href="#" class="text-uppercase bg-success link text-white fw-600 px-3 py-2 rounded-pill">follow</a>
+</div>
+
+
+<!--follow6-->
+<div class="text-center py-2">
+  <img src="assets/image/t1.jpg" class="story m-auto mt-2" alt="">
+  <h3 class="fs fw-600 text-capitalize mt-2">sama Daraghma</h3>
+  <p class="text-gray link">sama@gmail.com</p>
+  <a href="#" class="text-uppercase bg-success link text-white fw-600 px-3 py-2 rounded-pill">follow</a>
+</div>
+
+<!--end follow-->
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+<!--end follow-->
+
+<!--post video2--> 
+<div class="postOne mt-4 roundedA shadow-xss p-4">
+  <div class="d-flex align-items-center">
+    <img src="assets/image/masa.jpg" class="Pimg">
+  <div class="ms-2">
+    <span class="text-capitalize m-0 link">deema daraghmeh</span>
+    <p class="text-gray link   m-0  ">5 hour ago</p>
+  </div>
+  <a  href="#" class="Pimg bg-gray text-decoration-none me-3 d-flex align-items-center justify-content-center ms-auto text-dark">
+    <i class="fa-solid fa-ellipsis"></i>
+  </a>
+  </div>
+
+<video src="assets/image/video.jpg" width="100%" controls  class="mt-3"></video>
+  
+  <div class="link mt-3 text-gray">  
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, asperiores? Lorem ipsum dolor sit amet consectetur <a href="#" class="text-decoration-none text-primary link ms-2">See more</a></p>
+  </div>
+   
+  <!--last part in second post-->
+  <div class="d-flex align-items-center mt-3">
+    <i class="fa-solid fa-thumbs-up text-white bg-blue-gradient link w20 d-flex justify-content-center align-items-center "></i>
+    <i class="fa-regular fa-heart text-white bg-warningg link w20 ms-1 d-flex justify-content-center align-items-center"></i>
+    <span class="link ms-1 d-none d-md-inline-block">4k Like</span>
+    <i class="fa-regular fa-comment ms-3"></i>
+    <span class="link ms-1 d-none d-md-inline-block">40 comment</span>
+  
+    <i class="fa-solid fa-share-nodes ms-auto"></i>
+    <span class="fs ms-1 d-none d-md-inline-block">share</span>
+  </div>
+
+</div>
+<!--post video2--> 
+
+
+<!--loading-->
+<div class="p-4 mt-2  bg-white shadow-xss roundedA"> 
+ 
+  <div class="dots m-auto"></div>
+ 
+</div>
+<!--end loading-->
+
+</div>
+
+<!--end left side in main content-->
+
+
+
+<!--right side in main content-->
+<div class="col-lg-4 col-xl-4"> 
+<div class="shadow-xss roundedA bg-white">
+<div class="d-flex p-3 align-items-center justify-content-between border-bottom">
+    <h4 class="text-capitalize m-0">friend request</h4>
+    <a href="#" class="link text-decoration-none  text-capitalize text-primary">see all</a>
+</div>
+
+<div class="p-3 ">
+<div class="d-flex align-items-center">
+<img src="assets/image/mayar_img.jpg" alt="" class="Pimg">
+<div class="d-flex flex-column ms-3">
+  <h4 class="m-0">Mayar Daraghmeh</h4>
+  <p class="link m-0 text-gray mt-2">12 mutual friend</p>
+</div>
+</div>
+
+<div class="btns mt-3 d-flex gap-1">
+  <button class="btn  bg-primary rounded-pill px-3 text-white">Confirm</button>
+  <button class="btn  del-btn bg-gray rounded-pill px-3 ms-2  border-0">Delete</button>
+  
+</div>
+
+</div>
+
+<div class="p-3">
+  <div class="d-flex align-items-center">
+  <img src="assets/image/mayar_img.jpg" alt="" class="Pimg">
+  <div class="d-flex flex-column ms-3">
+    <h4 class="m-0">Mayar Daraghmeh</h4>
+    <p class="link m-0 text-gray mt-2">12 mutual friend</p>
+  </div>
+  </div>
+  
+  <div class="btns mt-3 d-flex gap-1 ">
+    <button class="btn con-btn  bg-primary rounded-pill px-3 text-white">Confirm</button>
+    <button class="btn del-btn bg-gray rounded-pill px-3 ms-2 border-0">Delete</button>
+    
+  </div>
+  
+  </div>
+
+
+
+
+</div>
+
+<div class="shadow-xss roundedA bg-white pb-3 mt-3 ">
+  <div class="d-flex p-3 align-items-center justify-content-between">
+      <h4 class="text-capitalize m-0">confirm friend</h4>
+      <a href="#" class="link text-decoration-none  text-capitalize text-primary">see all</a>
+  </div>
+  <!--confirm1-->
+  <div class="p-1">
+  <div class="d-flex align-items-center bg-gray p-2 rounded">
+  <img src="assets/image/mayar_img.jpg" alt="" class="Pimg">
+  <div class="d-flex flex-column ms-3">
+    <h4 class="m-0">Mayar Daraghmeh</h4>
+    <p class="link m-0 text-gray mt-2">12 mutual friend</p>
+  </div>
+  <a href="#" class="Pimg bg-white d-flex align-items-center justify-content-center text-decoration-none  ms-auto text-dark">+</a>
+   </div>
+  </div>
+  
+  <!--confirm2-->
+  <div class="p-1">
+    <div class="d-flex align-items-center bg-gray p-2 rounded">
+    <img src="assets/image/mayar_img.jpg" alt="" class="Pimg">
+    <div class="d-flex flex-column ms-3">
+      <h4 class="m-0">Mayar Daraghmeh</h4>
+      <p class="link m-0 text-gray mt-2">12 mutual friend</p>
+    </div>
+    <a href="#" class="Pimg bg-white d-flex align-items-center justify-content-center text-decoration-none  ms-auto text-dark">></a>
+     </div>
+    </div>
+
+
+
+
+
+
+</div>
+<!--suggest pages1-->
+<div class="shadow-xss roundedA bg-white mt-3">
+  <div class="d-flex p-3 align-items-center justify-content-between border-bottom">
+      <h4 class="text-capitalize m-0">Suggest Pages</h4>
+      <a href="#" class="link text-decoration-none  text-capitalize text-primary">see all</a>
+  </div>
+
+  <div class="  d-flex align-items-center justify-content-center">
+    <img src="assets/image/funded1.png" alt="" class="main-img mt-3 mb-3 rounded-4">
+  </div>
+
+  <div class="suggImg d-flex  pb-3 ms-3  align-items-center ">
+    <div class="d-flex"> 
+    <img src="assets/image/lana-img.jpg" class="Pimg img1">
+    <img src="assets/image/haya-img.jpg" class="Pimg img2">
+    <img src="assets/image/zain-img.jpg" class="Pimg img3">
+    <img src="assets/image/heba-img.jpg" class="Pimg img4">
+    <span class="Pimg bg-gray img5 d-flex justify-content-center align-items-center text-gray fw-bolder">+2</span>
+    </div>
+    <span class="text-gray ">Member apply</span>
+  </div>
+  
+ 
+  
+ 
+  
+</div>
+
+
+
+  <!--suggest pages2-->
+<div class="shadow-xss roundedA bg-white mt-3">
+    <div class="d-flex p-3 align-items-center justify-content-between border-bottom">
+        <h4 class="text-capitalize m-0">Suggest Pages</h4>
+        <a href="#" class="link text-decoration-none  text-capitalize text-primary">see all</a>
+    </div>
+  
+    <div class="  d-flex align-items-center justify-content-center">
+      <img src="assets/image/funded2.png" alt="" class="main-img mt-3 mb-3 rounded-4">
+    </div>
+  
+    <div class="suggImg d-flex  pb-3 ms-3  align-items-center  mb-3">
+       <button class="btn del-btn bg-gray w-100 me-3 rounded-5 py-2"><i class="fa-solid fa-up-right-from-square me-2"></i> Like page</button>
+    </div>
+    
+    
+   
+    
+    <div class="  d-flex align-items-center justify-content-center">
+      <img src="assets/image/funded1.png" alt="" class="main-img mt-3 mb-3 rounded-4">
+    </div>
+  
+    <div class="suggImg d-flex  pb-3 ms-3  align-items-center  mb-3">
+       <button class="btn del-btn bg-gray w-100 me-3 rounded-5 py-2"><i class="fa-solid fa-up-right-from-square me-2"></i> Like page</button>
+    </div>
+   
+    
+</div>
+
+
+
+<!--event-->
+<div class="shadow-xss roundedA bg-white mt-3">
+  <div class="d-flex p-3 align-items-center justify-content-between  ">
+      <h4 class="text-capitalize m-0">Event</h4>
+      <a href="#" class="link text-decoration-none  text-capitalize text-primary">see all</a>
+  </div>
+
+
+<!--event1-->
+<div class="p-3">
+<div class="d-flex align-items-center">
+<h4 class="bg-success roundedA text-white p-3 text-center fw-600">
+<span class="d-block fs">
+  FEB
+</span>
+22
+</h4>
+
+<div class="ms-2 ">
+  <h4 class="fs m-0">
+    Meeting with clients
+  </h4>
+<p class="link text-gray m-0 mt-1">
+Lorem debiias officia dignissi.
+</p>
+</div>
+</div>
+ 
+ 
+<!--event2-->
+
+<div class="d-flex align-items-center">
+  <h4 class="bg-primary roundedA text-white p-3 text-center fw-600">
+  <span class="d-block fs">
+    ABR
+  </span>
+  30
+  </h4>
+  
+  <div class="ms-2 ">
+    <h4 class="fs m-0">
+    program 
+    </h4>
+  <p class="link text-gray m-0 mt-1">
+  Lorem debiias officia dignissi.
+  </p>
+  </div>
+  </div>
+ 
+
+<!--event3-->
+   
+    <div class="d-flex align-items-center">
+    <h4 class="bg-primary roundedA text-white p-3 text-center fw-600">
+    <span class="d-block fs">
+      ABR
+    </span>
+    23
+    </h4>
+    
+    <div class="ms-2 ">
+      <h4 class="fs m-0">
+      Aniversary event
+      </h4>
+    <p class="link text-gray m-0 mt-1">
+    Lorem debiias officia dignissi.
+    </p>
+    </div>
+    </div>
+    
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<div class="chat position-fixed  d-none d-lg-block p-3 bg-white">
+  <div class="content-cannva roundedA shadow-sm p-3">
+    <p class="text-capitalize text-gray">contact</p>
+    <ul class="list-unstyled Pul">
+      <li class="d-flex align-items-center  licontact mb-3">
+        <img src="assets/image/zain-img.jpg" class="Pimg">
+        <h3 class="ms-2">Zain Daraghmeh</h3>
+        <span class="badge bg-primary rounded-circle ms-auto">2</span>
+      </li>
+      <li class="d-flex align-items-center  licontact mb-3">
+        <img src="assets/image/ghadeer-img.jpg" class="Pimg">
+        <h3 class="ms-2">Aya Daraghmeh</h3>
+        <span class="success-rgb rounded-circle p-1 ms-auto"></span>
+      </li>
+
+      <li class="d-flex align-items-center  licontact mb-3">
+        <img src="assets/image/haya-img.jpg" class="Pimg">
+        <h3 class="ms-2">Haya Daraghmeh</h3>
+        <span class="bg-warning rounded-circle p-1 ms-auto"></span>
+      </li>
+
+      <li class="d-flex align-items-center  licontact mb-3">
+        <img src="assets/image/heba-img.jpg" class="Pimg">
+        <h3 class="ms-2">Heba Daraghmeh</h3>
+        <span class="bg-danger rounded-circle p-1 ms-auto"></span>
+      </li>
+      <li class="d-flex align-items-center  licontact mb-3">
+        <img src="assets/image/zain-img.jpg" class="Pimg">
+        <h3 class="ms-2">Zain Daraghmeh</h3>
+        <span class="success-rgb rounded-circle p-1 ms-auto"></span>
+      </li>
+      <li class="d-flex align-items-center  licontact mb-3">
+        <img src="assets/image/ghadeer-img.jpg" class="Pimg">
+        <h3 class="ms-2">Aya Daraghmeh</h3>
+        <span class="success-rgb rounded-circle p-1 ms-auto"></span>
+      </li>
+
+      <li class="d-flex align-items-center  licontact mb-3">
+        <img src="assets/image/haya-img.jpg" class="Pimg">
+        <h3 class="ms-2">Haya Daraghmeh</h3>
+        <span class="bg-warning rounded-circle p-1 ms-auto"></span>
+      </li>
+
+      <li class="d-flex align-items-center  licontact mb-3">
+        <img src="assets/image/heba-img.jpg" class="Pimg">
+        <h3 class="ms-2">Heba Daraghmeh</h3>
+        <span class="bg-danger rounded-circle p-1 ms-auto"></span>
+      </li>
+
+
+    </ul>
+
+    <p class="text-capitalize text-gray">groups</p>
+    <ul class="list-unstyled Pul">
+      <li class="d-flex align-items-center  licontact mb-3">
+        <span class="Pimg p-2 bg-primary rounded-circle d-flex align-items-center justify-content-center text-white fw-bolder">UD</span>
+        <h3 class="ms-2">Studio Express</h3>
+        <span class=" text-gray ms-auto time">2min</span>
+      </li>
+
+      <li class="d-flex align-items-center  licontact mb-3">
+        <span class="Pimg p-2 bg-danger rounded-circle d-flex align-items-center justify-content-center text-white fw-bolder">AR</span>
+        <h3 class="ms-2">Armany Design</h3>
+        <span class="bg-warning rounded-circle p-1 ms-auto"></span>
+      </li>
+
+      <li class="d-flex align-items-center  licontact mb-3">
+        <span class="Pimg p-2 bg-warning rounded-circle d-flex align-items-center justify-content-center text-white fw-bolder">UD</span>
+        <h3 class="ms-2">De Fabous</h3>
+        <span class="success-rgb rounded-circle p-1 ms-auto"></span>
+      </li>
+      </ul>
+
+      <p class="text-capitalize text-gray">pages</p>
+      <ul class="list-unstyled Pul">
+        <li class="d-flex align-items-center  licontact mb-3">
+          <span class="Pimg p-2 bg-primary rounded-circle d-flex align-items-center justify-content-center text-white fw-bolder">UD</span>
+          <h3 class="ms-2">Studio Express</h3>
+          <span class=" text-gray ms-auto time">2min</span>
+        </li>
+  
+        <li class="d-flex align-items-center  licontact mb-3">
+          <span class="Pimg p-2 bg-danger rounded-circle d-flex align-items-center justify-content-center text-white fw-bolder">AR</span>
+  
+          <h3 class="ms-2">Armany Design</h3>
+          <span class="bg-warning rounded-circle p-1 ms-auto"></span>
+        </li>
+  
+        <li class="d-flex align-items-center  licontact mb-3">
+          <span class="Pimg p-2 bg-warning rounded-circle d-flex align-items-center justify-content-center text-white fw-bolder">UD</span>
+  
+          <h3 class="ms-2">De Fabous</h3>
+          <span class="success-rgb rounded-circle p-1 ms-auto"></span>
+        </li>
+  
+        </ul>
+
+
+
+
+
+
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+    <!--bootstrap-->
+    <script src="vendor/js/bootstrap.min.js"></script>
+    <!--jquery-->
+    <script src="vendor/js/jquery-3.6.3.min.js"></script>
+    <!-- lightbox cdn-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.js"></script>
+    <!--carousel-->
+    <script src="vendor/js/owl.carousel.min.js"></script>
+    <!--main  js-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

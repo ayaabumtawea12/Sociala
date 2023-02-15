@@ -1,0 +1,149 @@
+ .navbar .navbar-brand{
+    font-family: fredokaOne ;
+   font-size: 34px;
+}
+
+.navbar .search input::placeholder{
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.navbar .search input:focus-visible{
+    outline: none;
+}
+
+.navbar .first-list .nav-link , .navbar .third-list .nav-link{
+    width: 40px;
+    height: 40px;
+    background-color: var(--bg-gray);
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:15px;
+}
+
+.navbar .first-list .nav-item i{
+    color: var(--text-gray);
+}
+
+ 
+.navbar .first-list .nav-link.active{
+    background-color:var(--bg-active-link);
+}
+    
+
+.navbar .first-list .nav-link.active i{
+color:rgb(var(--bs-primary-rgb))
+}
+.navbar .second-list .nav-link{
+    margin-right: 9px;
+}
+.navbar .second-list .nav-link i{
+    color:rgb(var(--bs-primary-rgb))
+}
+
+.nav-link .fa-gear{
+    animation: rotategear infinite 4s linear;
+}
+
+@keyframes rotategear{
+from{
+    transform: rotate(0);
+}
+    to{
+        transform: rotate(360deg);
+}
+}
+
+.navbar .canva-btn{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color:transparent;
+    border-radius: 50%;
+    overflow: hidden;
+}    
+
+.navbar .canva-btn::before,.navbar .canva-btn::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: black;
+    right: 0px;
+    border-radius: 1px;
+    transition: .25s;
+}
+
+.navbar .canva-btn::before{
+    width: 40px;
+    top:8px
+}
+
+.navbar .canva-btn::after{
+    width: 30px;
+    top: 20px;
+}
+
+.navbar .canva-btn.active::before{
+    transform: translateY(8px) rotate(45deg);
+}
+
+.navbar .canva-btn.active::after{
+transform: translateY(-8px) rotate(-45deg);
+width: 40px;
+top: 24px;
+}
+
+
+/*.offcanvas */
+.offcanvas {
+    height: 100vh;
+    overflow-y: auto;
+}
+  .content-cannva li i{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+   
+ }
+
+  .content-cannva:nth-child(1) li i{
+    color: white;
+ }
+
+  .content-cannva:nth-child(2) li i{
+
+    color:rgb(var(--bs-primary-rgb)) ;
+
+ }
+
+
+  .content-cannva:nth-child(3) li i{
+    color: var(--text-gray);
+
+ }
+
+  .content-cannva li h3{
+    color: var(--text-gray-888);
+    font-weight: 600;
+    font-size: 15px;
+    transition: color 0.2s;
+}
+
+.content-cannva li:hover h3{
+    color:rgb(var(--bs-primary-rgb)) ;
+}.content-cannva p{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+@media (width<768px){
+    .navbar .navbar-brand{
+        font-size: 20px;
+    }
+}
